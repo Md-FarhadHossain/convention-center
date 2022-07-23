@@ -30,3 +30,36 @@ body {
       }
 }
 /* Navbar end */
+
+
+
+/* Carousel */
+.carousel_image {
+    height: 75vh;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+.carousel_title, .carousel_desc {
+    color: #fff;
+}
+.carousel_desc {
+    font-size: .9rem;
+    margin: 1rem 0;
+}
+.carousel-dark .carousel-caption {
+    width: 480px;
+    margin: auto;
+}
+.book_btn {
+    margin: 1rem 0;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fff;
+}
+.carousel-control-next-icon {
+    background-image: url(./assets/icons/arrow-right.svg);
+}
+.carousel-control-prev-icon {
+    background-image: url(./assets/icons/arrow-left.svg);
+}
+/* Carousel end */
