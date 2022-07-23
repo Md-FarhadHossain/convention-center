@@ -12,4 +12,21 @@ body {
 .logo {
     font-weight: 600;
 }
+
+/* Navbar responsive */
+@media screen and (max-width: 992px) {
+    .navbar-nav {
+        background: #e8e8e8;
+        padding: .8rem;
+        border-radius: .5em;
+        margin-top: 1rem;
+    }
+    .nav-item {
+        background: #ddd;
+        margin: .3em 0;
+        padding: 0 1rem;
+        border-radius: .5em;
+        text-align: center;
+      }
+}
 /* Navbar end */
